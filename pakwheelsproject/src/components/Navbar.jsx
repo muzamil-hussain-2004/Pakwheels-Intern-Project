@@ -17,7 +17,7 @@ const Navbar = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(setQuery(searchInput)); 
-    navigate("/"); 
+    navigate("/cars"); 
   };
 
   return (
